@@ -22,7 +22,7 @@ public class FristGame extends Game {
         batch = new SpriteBatch();
         font = new BitmapFont();
         font.setColor(Color.RED);
-        font.getData().setScale(2);
+        font.getData().setScale(4);
     }
 
     @Override
@@ -39,7 +39,7 @@ public class FristGame extends Game {
         Gdx.gl.glClear(GL10.GL_COLOR_BUFFER_BIT);
 
         batch.begin();
-        font.draw(batch, "Test LibGdx Android", centerWidth, centerHeight);
+        font.draw(batch, "Test LibGdx Android", centerWidth - 250, centerHeight);
         batch.end();
     }
 }

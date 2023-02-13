@@ -6,7 +6,6 @@ import androidx.annotation.Nullable;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
-import com.example.ightklab.games.FristGame;
 
 public class GameScreen extends AndroidApplication {
 
